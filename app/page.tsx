@@ -27,12 +27,11 @@ export default function LandingPage() {
         </div>
 
         <h1 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight mb-5">
-          Before you get HVAC quotes,{' '}
-          <span className="text-teal-600">let&apos;s make sure you&apos;re looking at the right numbers.</span>
+          Don&apos;t get HVAC quotes until you know what to ask.
         </h1>
 
         <p className="text-lg text-slate-500 mb-12 max-w-xl">
-          Take 5 minutes to clarify what you know, what&apos;s uncertain, and what to ask your contractor. Free, no signup required.
+          Take 5 minutes to find out what a fair price looks like, where contractors pad estimates, and the exact questions to ask before anyone gives you a number. Free, no signup.
         </p>
 
         <div className="w-full max-w-md">
@@ -52,7 +51,7 @@ export default function LandingPage() {
             disabled={!address.trim()}
             className="w-full bg-teal-600 hover:bg-teal-700 disabled:bg-slate-200 disabled:text-slate-400 text-white font-semibold py-3.5 px-6 rounded-xl transition-colors text-base cursor-pointer disabled:cursor-not-allowed"
           >
-            Start readiness check →
+            Show me what to ask →
           </button>
         </div>
 
