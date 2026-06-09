@@ -55,23 +55,7 @@ export default function LandingPage() {
           </button>
         </div>
 
-        <div className="mt-12 grid grid-cols-3 gap-6 max-w-md w-full">
-          {[
-            { icon: '🔍', text: 'Understand your project' },
-            { icon: '📋', text: 'Get a contractor brief' },
-            { icon: '📄', text: 'Download a readiness guide' },
-          ].map(item => (
-            <div key={item.text} className="text-center">
-              <div className="text-2xl mb-1">{item.icon}</div>
-              <p className="text-xs text-slate-500">{item.text}</p>
-            </div>
-          ))}
-        </div>
       </div>
-
-      <footer className="py-6 text-center text-xs text-slate-400 border-t border-slate-100">
-        Snapshot never estimates costs or recommends contractors.
-      </footer>
     </main>
   );
 }
